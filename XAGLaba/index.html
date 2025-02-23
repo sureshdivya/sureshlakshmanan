@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<!-----------------NavBar-------------------------->
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#"><img src="./images/Logo.svg" alt=""></a>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#" class="slider2-toggle per-text2">OUR TEAM</a></li>
+                <li class="apply_slider"><a href="#" class="slider-toggle per-text">PERSIONAL DETAILS</a></li>
+                <li class="apply_slider"><a href="#" class="slider1-toggle per-text1">CONTACT US</a></li>
+
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+<!-----------Home---------------------------------------------->
+
+    <main>
+        <section class="home ">
+            <div class="wrapper ">
+
+                <div class="slide1">
+
+                    <div class="s_wrap image">
+                        <h1>Our Team</h1>
+                        <p class="paragraph">We believe that great ideas come to life through collaboration and innovation. Our team
+                            is a diverse group of passionate professionals, each bringing unique skills and experiences to the
+                            table.
+                            From creative designers and strategic thinkers to technical experts and problem-solvers, we are united
+                            by a shared vision of delivering excellence in everything we do.</p>
+            
+                        <p class="paragraph">Our mission is to empower businesses and individuals by creating innovative,
+                            sustainable, and user-friendly designs. With a culture that values integrity, growth, and teamwork, we
+                            are committed to creating meaningful solutions that make a difference. Whether it’s crafting
+                            cutting-edge designs, developing user-centered interfaces, or building sustainable solutions, our team
+                            thrives on turning challenges into opportunities.</p>
+        
+                            <div id="home-Text">
+                                <p>Our Team</p>
+                              </div>
+                              
+                              <section class="gallery">
+                                <div class="item">
+
+                                    <img src="./images/Image 1.jpg" alt="Image 1">
+                                    <p>Meredith Allen <br />CEO</p>
+                                </div>
+
+                            <div class="item">
+                                <img src="./images/Image 2.jpg" alt="Image 2">
+                                <p>Thomas Woodward <br />COO</p>
+                            </div>
+
+                            <div class="item">
+                                <img src="./images/Image 3.jpg" alt="Image 3">
+                                <p>Wade Barton <br />Business Analyst</p>
+                            </div>
+
+                            <div class="item">
+                                <img src="./images/Image 4.jpg" alt="Image 4">
+                                <p>Yahir Marquez<br />Marketing Executive</p>
+                            </div>
+
+                            <div class="item">
+                                <img src="./images/Image 5.jpg" alt="Image 5">
+                                <p>Vera Rodgers<br />Lead Designer</p>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                
+                
+<!-----------------------Slider Page1--------------------->                
+                
+                <div class="slider click-slider image" id="cSlider">
+                    
+                    <div class="container">
+                        <h1 class="persional">Persional Details</h1>
+                        <form id="myForm">
+
+                            <div class="form-group">
+                                <div class="input-container">
+                                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                                    <span class="icon"><i class="fas fa-user"></i></span> 
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-container">
+                                    <input type="tel" id="mobile" name="mobile" placeholder="Enter your mobile number" required>
+                                    <span class="icon"><i class="fa-solid fa-phone"></i></span> 
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-container">
+                                    <textarea id="message" name="message" rows="4" placeholder="Enter Your Address"
+                                        required></textarea>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div id="homeText1">
+                        <p>Persional Details</p>
+                    </div>
+                </div>
+                
+                
+ <!---------------------------------Slider Page2-------------------------------->               
+                
+                
+                <div class="slider1 ca_Slider per-text1 image" id="cSlider4">
+                    
+                    <div class="container1">
+                        <h1>Our Team</h1>
+                        <p class="text"> We are a team of engineers, communication experts and innovators who specialise in developing technology propositions for the world around us. We noticed that in an overwhelming number of use cases, technology was not really the problem; mistrust came from how it was deployed by creators and then understood and used by consumers.</p>
+                    </div>
+                    
+                    <div id="home_Text">
+                        <p>Contact Us</p>
+                    </div>
+                </div>
+                
+                <div class="btn">
+                    <button id="left" class="nav-btn"><i class="fas fa-chevron-left"></i></button>
+                    <button id="right" class="nav-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            
+            
+            </div>
+        </div>
+    
+    </section>
+</main>
+
+
+<!-----------Footer------------------------------------>
+
+
+<footer>
+    
+    <p>We’ve got one planet—let’s treat it right.</p>
+    <p>© 2024 Company Name</p>
+    <p>Privacy Policy</p>
+    <p>Terms & Conditions</p>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
